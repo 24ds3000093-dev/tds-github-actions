@@ -1,0 +1,12 @@
+name: TDS Verification Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24ds3000093@ds.study.iitm.ac.in
+        run: echo "Workflow triggered successfully for 24ds3000093@ds.study.iitm.ac.in"
